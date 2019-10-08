@@ -146,6 +146,7 @@ if (isset($_POST["action"])) {
         <td>Gia</td>
         <td>Tac gia</td>
         <td>Nam hoc</td>
+        <td>Thao tac</td>
     </tr>
     <?php foreach ($lsFromFile as  $bookItem) { ?>
         <tr>
