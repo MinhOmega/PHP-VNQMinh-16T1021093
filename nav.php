@@ -1,9 +1,9 @@
 <body>
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand mr-1" href="index.php">Start Bootstrap</a>
 
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="index.php">
       <i class="fas fa-bars"></i>
     </button>
 
@@ -53,7 +53,7 @@
           <a class="dropdown-item" href="#">Settings</a>
           <a class="dropdown-item" href="#">Activity Log</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="logout.php" >Logout</a>
+          <a class="dropdown-item" href="logout.php">Logout</a>
         </div>
       </li>
     </ul>
@@ -89,10 +89,16 @@
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Bai so 4</span></a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="baiso5.php">
+        <a class="nav-link" href="baiso6.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Bai so 5</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DocFileJson.php">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Doc file Json</span></a>
       </li>
     </ul>
 

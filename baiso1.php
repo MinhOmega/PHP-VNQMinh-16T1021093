@@ -1,6 +1,8 @@
     <?php
     include_once("header.php")
     ?>
+    <?php 
+    include_once("nav.php")?>
     <div style="text-align:center"><span>Helllo PHP</span></div>
     <?php
     define('PI', '3.14');

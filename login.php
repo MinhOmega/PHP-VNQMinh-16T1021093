@@ -43,6 +43,9 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
   
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="vendor/bootstrap/scss/bootstrap.scss" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+    
     <!-- Custome CSS-->    
     <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/layouts/page-center.css" type="text/css" rel="stylesheet" media="screen,projection">
@@ -87,10 +90,14 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
         </div>
         <div class="row">
             <a href="javascript:void(0);" onclick="document.getElementById('form').submit();" class="btn waves-effect waves-light col s12">Login</a>
-            <?php 
-            echo $information;
-            ?>
-          </div>
+            <?php if (strlen($information) != 0) { ?>
+                        <div class="alert alert-danger clearfix" role="alert">
+                            <?php
+                                echo $information;
+                                ?>
+                        </div>
+                    <?php } ?>
+        </div>
 		  		<div class="row">
                   <div class="input-field col s6 m6 l6">
             <p class="margin medium-small"><a href="register.php">Forget Password</a></p>

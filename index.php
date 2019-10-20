@@ -1,7 +1,9 @@
 
     <?php
-    include_once("model/user.php");
+    
+    
     session_start();
+    include_once("model/user.php") ;
         // if(!unset($_SESSION["user"])){
         //     header("location:login.php");
         // }
@@ -20,7 +22,7 @@
      */
     // mã php trang chủ
     $user = unserialize($_SESSION["user"]);
-    echo "Hello" . $user->fullName;
+    echo "Hello " . $user->fullName;
     
     ?>
    

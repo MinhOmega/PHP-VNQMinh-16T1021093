@@ -2,6 +2,8 @@
     <?php
     include_once("header.php")
     ?>
+    <?php 
+    include_once("nav.php")?>
     <form action="" method="get">
         <input placeholder="So thu nhat" type="text" name="num1" id="" value="<?php echo $_GET["num1"] ?? "" ?>">
         <input placeholder="So thu 2" type="text" name="num2" id="" value="<?php echo $_GET["num2"] ?? "" ?>">

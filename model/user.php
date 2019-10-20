@@ -6,7 +6,7 @@ class User{
     function User($userName,$passWord, $fullName){
         $this->userName= $userName;
         $this->passWord = $passWord;
-        $this->fullName = $$fullName;
+        $this->fullName = $fullName;
    }
    /**
     * Xác thực người sử dụng
