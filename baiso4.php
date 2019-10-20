@@ -141,7 +141,7 @@ if (isset($_POST["action"])) {
 
 <table class="table table-bordered">
     <tr style="background: #343a40; color: white">
-        <td>STT</td>       
+        <td>STT</td>
         <td>Tieu de</td>
         <td>Gia</td>
         <td>Tac gia</td>
@@ -158,13 +158,13 @@ if (isset($_POST["action"])) {
             <td>
 
                 <div>
-                    <button data-toggle="modal" data-target="<?php echo "#editBook".$bookItem->id; ?>" class="btn btn-outline-warning"><i class="fas fa-edit"></i>&nbsp;Sửa</button>
-                    <div class="modal fade" id="<?php echo "editBook".$bookItem->id; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <button data-toggle="modal" data-target="<?php echo "#editBook" . $bookItem->id; ?>" class="btn btn-outline-warning"><i class="fas fa-edit"></i>&nbsp;Sửa</button>
+                    <div class="modal fade" id="<?php echo "editBook" . $bookItem->id; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <form method="post">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                    <?php echo $bookItem->title;?>
+                                        <?php echo $bookItem->title; ?>
                                         <h5 class="modal-title" id="exampleModalLabel">Sua thong tin sach</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
