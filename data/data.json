@@ -1,0 +1,26 @@
+[{
+    "Title": "Sách âm nhạc",
+    "Cost": "50000",
+    "Author": "Quang Minh",
+    "Year": "1990"
+}, {
+    "Title": "Sách mỹ thuật",
+    "Cost": "20000",
+    "Author": "Ngọc Thắng",
+    "Year": "1989"
+}, {
+    "Title": "Sách đạo đức",
+    "Cost": "100000",
+    "Author": "Ngọc Ánh",
+    "Year": "1988"
+}, {
+    "Title": "Sách thể dục",
+    "Cost": "40000",
+    "Author": "Phước Hưng",
+    "Year": "2001"
+}, {
+    "Title": "Sách thủ công",
+    "Cost": "10000",
+    "Author": "Phúc Phôn",
+    "Year": "1980"
+}]
