@@ -104,15 +104,15 @@ include_once("footer.php")
 </script> -->
 <script>
     $(document).ready(function() {
-  var data
-  $.ajax({
-    dataType: 'json',
-    url: '/xampp/htdocs/PHP/data/data.json',
-    data: data,
-    success: function(data) {
-      // begin accessing JSON data here
-      console.log(data[0].Title)
-    },
-  })
-})
-    </script>
+        var data
+        $.ajax({
+            dataType: 'json',
+            url: '/xampp/htdocs/PHP/data/data.json',
+            data: data,
+            success: function(data) {
+                // begin accessing JSON data here
+                console.log(data[0].Title)
+            },
+        })
+    })
+</script>

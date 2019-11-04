@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
           </div>
         </div>
         <div class="row">
-            <a href="javascript:void(0);" onclick="document.getElementById('form').submit();" class="btn waves-effect waves-light col s12">Login</a>
+            <a href="javascript:void(0);" onclick="document.getElementById('form').submit();" class="btn waves-effect waves-light col s12" style="text-align: center;">Login</a>
             <?php if (strlen($information) != 0) { ?>
                         <div class="alert alert-danger clearfix" role="alert">
                             <?php

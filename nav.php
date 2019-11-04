@@ -84,18 +84,18 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Bai so 3</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" title="Bài số 4 gồm phần hiển thị danh sách các bảng trong database cũng như từ file.">
         <a class="nav-link" href="baiso4.php">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Bai so 4</span></a>
+          <span>Bài số 4</span></a>
       </li>
 
-      <li class="nav-item">
+      <li class="nav-item" title="Bài số 5 dùng ajax để hiển thị dữ liệu trong file text">
         <a class="nav-link" href="baiso6.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Bai so 5</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" title="Dùng để đọc file .JSON">
         <a class="nav-link" href="DocFileJson.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Doc file Json</span></a>
